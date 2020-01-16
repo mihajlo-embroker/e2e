@@ -1,0 +1,16 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "e2e": "jest",
+    "e2e:prod": "env=prod jest"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "jest": "^24.9.0",
+    "puppeteer": "^2.0.0",
+    "rimraf": "^3.0.0"
+  }
+}
